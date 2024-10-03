@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="toggle" id="toggle" onclick="openside()"><p>≡ @Portfolio</p></button>
+    <div class="sidebar" id="sidebar">
+        <ul>
+            </li><div class="info_container" id="info_container">
+                <img src="profile.png" id="profile-pic" class="profile">
+                <p id="info_text"> Raghuraamm<br>Avid Learner</p>
+            </div></li>
+            <li><div class="contacts">
+                <a href="https://github.com/Ghua8088"><img src="Git.png" alt="GITHUB" height="40" width="40"></a>
+                <a href="https://leetcode.com/u/Ghua8088/"><img src="leet.png" alt="leetcode" height="40" width="40"></a>
+                <a href="https://www.linkedin.com/in/raghu-raamm-914a33300"><img src="linkedin.png" alt="linkedin" height="40" width="40"></a>
+            </div></li>
+            <li><div class="Tabs">
+                <a href="#" onclick="opentab('Home');animateText('hometerminal',5)">Home</a>
+                <a href="#" onclick="opentab('Skills');animateText('Skillterminal',5)">Skills</a>
+                <a href="#" onclick="opentab('Projects');animateText('Projectsterminal',5)">Projects</a>
+                <a href="#" onclick="opentab('Contact');animateText('Contactterminal',5)">Contact</a>
+                <a href="#" onclick="opentab('Hobbies');animateText('Hobbiesterminal',5)">Hobbies</a>
+            </div></li>
+        </ul>
+    </div>
+    <div class="tab" id="Home">
+        <p>
+            Me/>dir Me
+        </p>
+        <p id="hometerminal">
+            What's up ? <br>
+            This is my Home page.<br>
+            My name is <strong> Raghuraamm</strong><br>
+            I'm a curious and creative learner ready to learn new things every day.I love coding and writing logics efficiently and obviously showing my creativity:)
+        </p>
+        <ul class="tabcontainer">
+            <li><img src="wave.png" ></li>
+            <li><img src="smiley.png" ></li>
+        </ul>
+    </div>
+    <div class="tab" id="Skills">
+        <p> Cd Me:/Skills<br>Me/Skills> dir Skills</p>
+        </p>
+        <p id="Skillterminal">
+            skills: Intermediate <br>
+            <strong>Front-End:</strong> CSS, JavaScript<br>
+            <strong>Middle-End:</strong> Python (ML).<br>
+            <strong>Back-End:</strong> Java, C++, SQL-basics<br>
+            <strong>DSA:</strong>Leetcode<br></p>
+        </p>
+        <ul class="tabcontainer">
+            <li><img src="js.png" ></li>
+            <li><img src="py.png" ></li>
+            <li><img src="C++.png"></li>
+            <li><img src="sql.png"  width ></li>
+        </ul>
+    </div>
+    <div class="tab" id="Projects">
+        <p>Cd..<br> Cd Me:/Projects<br>Me/Projects> dir Projects</p>
+        <p id="Projectsterminal">
+            <strong>Block Breaker Game:</strong> Developed a dynamic Java game.<br>
+            <strong>Web Development:</strong> Created several engaging webpages.<br>
+            <strong>ML Hackathon:</strong> Participated in a collaborative machine learning project.
+        </p>
+        <ul class="tabcontainer">
+            <li><img src="game.png" ></li>
+            <li><img src="jypter.png" ></li>
+            <li><img src="web.png" ></li>
+        </ul>
+    </div>
+    <div class="tab" id="Contact">
+        <p>Cd..<br> Cd Me:/Contact<br>Me/Contact> dir Contact</p>
+        <p id="Contactterminal">
+            You can find my links in the side navigation.<br>
+            Feel free to reach out via email: <strong>raghusony2005@gmail.com</strong>.<br>
+        </p>
+        <ul class="tabcontainer">
+            <li><img src="Git.png" ></li>
+            <li><img src="leet.png" ></li>
+            <li><img src="linkedin.png" ></li>
+            <li><img src="gmail.png" ></li>
+        </ul>
+    </div>
+    <div class="tab" id="Hobbies">
+        <p>Cd..<br> Cd Me:/Hobbies<br>Me/Hobbies> dir Hobbies</p>
+        <p id="Hobbiesterminal">
+            I use my free time for: <br>
+            - **Poem & Story Writing**<br>
+            - **Coding**<br>
+            - **Music**: Flute<br>
+            - **Learning Languages**<br>
+            contact @raghu_raamm.l in instagram.
+        </p>
+        <ul class="tabcontainer">
+            <li><img src="literature.png" ></li>
+            <li><img src="language.png" ></li>
+            <li><img src="music.png" ></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
