@@ -39,7 +39,7 @@
 }
 .toggle{
     background-color: transparent;
-    color:rgb(42, 42, 42);
+    color:rgb(255, 255, 255);
     height: 45px;
     border-color: transparent;
     
@@ -109,7 +109,7 @@
     display: none;
 }
 body{
-   background-color:whitesmoke;
+   background-image: url(space.gif);
 }
 ul {
     margin: 5px;
